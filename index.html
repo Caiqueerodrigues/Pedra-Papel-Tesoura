@@ -21,14 +21,14 @@
         <section>
             <div id="placar">
                 <p id="jogador">Jogador: 0 Pontos</p>
-                <p id="computador">Compuatdor: 0 Pontos</p>
+                <p id="computador">Computador: 0 Pontos</p>
             </div>
             <div class="escolhas">
-                <div class="escolha pedra"><img src="imagens/pedra.png"></div>
-                <div class="escolha papel"><img src="imagens/papel.svg"></div>
-                <div class="escolha tesoura"><img src="imagens/tesoura.svg"></div>
+                <div class="escolha pedra" onclick="sorteio(0,900), jogar(`pedra`)"><img src="imagens/pedra.png"></div>
+                <div class="escolha papel" onclick="sorteio(0,900), jogar(`papel`)"><img src="imagens/papel.svg"></div>
+                <div class="escolha tesoura" onclick="sorteio(0,900), jogar(`tesoura`)"><img src="imagens/tesoura.svg"></div>
             </div>
-            <div class="escolha resultado"></div>
+            <div id="resultado" class="escolha resultado"></div>
         </section>
     <hr>
     <div class="container-fluid">
